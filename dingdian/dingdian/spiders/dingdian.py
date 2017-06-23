@@ -7,7 +7,7 @@ from dingdian.items import DingdianItem ##这是我定义的需要保存的字�
 class Myspider(scrapy.Spider):
 
     name = 'dingdian'
-    allowed_domains = ['23.com']
+    allowed_domains = ['23us.com']
     bash_url = 'http://www.23us.com/class/'
     bashurl = '.html'
 
